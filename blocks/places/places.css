@@ -1,0 +1,9 @@
+@import url(./place/place.css);
+
+.places {
+  position: absolute;
+  width: 984px;
+  height: 3452px;
+  left: 148px;
+  top: 2656px;
+}

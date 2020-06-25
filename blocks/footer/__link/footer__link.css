@@ -1,0 +1,16 @@
+.footer__link {
+    position: absolute;
+    width: 42px;
+    height: 18px;
+    left: 48px;
+    top: 7032px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+/* identical to box height, or 112% */
+
+    color: #FFFFFF;
+}

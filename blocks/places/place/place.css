@@ -1,0 +1,15 @@
+@import url(./__title/places__title.css);
+
+@import url(./__image/places__image.css);
+
+@import url(./__website/places__website.css);
+
+@import url(./__paragraph/places__paragraph.css);
+
+.place {
+  position: absolute;
+  width: 984px;
+  height: 584px;
+  left: 148px;
+  top: 2656px;
+}
