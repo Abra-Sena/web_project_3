@@ -2,8 +2,11 @@
   position: absolute;
   width: 984px;
   height: 615px;
-  left: 148px;
-  top: 504px;
+  /*left: 148px;
+  top: 504px;*/
 
-  background: url(../../../images/lead-mountains.jpg);
+  margin-top: 368px;
+  background-image: url(../../../images/lead-mountains.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }

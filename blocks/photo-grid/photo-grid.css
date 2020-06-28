@@ -1,3 +1,5 @@
+@import url(./__element/photo-grid__element.css);
+
 @import url(./__item/photo-grid__item.css);
 
 .photo-grid {
@@ -6,4 +8,8 @@
   height: 671px;
   left: 48px;
   top: 1893px;
+
+  margin: 0;
+  padding: 0;
+  background-color: yellow;
 }

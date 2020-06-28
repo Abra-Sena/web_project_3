@@ -3,9 +3,20 @@
 @import url(./__link/footer__link.css);
 
 .footer {
-    position: absolute;
-    width: 1184px;
-    height: 18px;
-    left: 48px;
-    top: 7032px;
+  position: absolute;
+  width: 1184px;
+  height: 18px;
+  left: 48px;
+  top: 7032px;
+
+  display: flex;
+  padding-top: 92px;
+  padding-bottom: 24px;
+}
+
+
+.footer__list {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
 }

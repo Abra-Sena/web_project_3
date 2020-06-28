@@ -2,8 +2,8 @@
   position: absolute;
   width: 183px;
   height: 14px;
-  left: 148px;
-  top: 1127px;
+  /*left: 148px;
+  top: 1127px;*/
 
   font-family: Inter;
   font-style: normal;
@@ -16,4 +16,5 @@
   text-transform: uppercase;
 
   color: #FFFFFF;
+  margin-top: 991px;
 }

@@ -2,14 +2,17 @@
 
 @import url(./__subtitle/cover__subtitle.css);
 
-@import url(./__overlay/cover__overlay.css);
-
 @import url(./__background/cover__background.css);
 
 .cover {
-    position: absolute;
-    width: 1184px;
-    height: 740px;
-    left: 48px;
-    top: 6200px;
+  position: absolute;
+  width: 1184px;
+  height: 740px;
+  left: 48px;
+  top: 6200px;
+}
+
+.cover:hover {
+  background: #2A2C2F;
+  opacity: .8;
 }

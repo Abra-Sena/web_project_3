@@ -12,4 +12,7 @@
   height: 1005px;
   left: 148px;
   top: 136px;
+
+  display: flex;
+  flex-direction: column;
 }

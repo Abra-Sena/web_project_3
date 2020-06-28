@@ -2,8 +2,8 @@
   position: absolute;
   width: 720px;
   height: 200px;
-  left: 280px;
-  top: 136px;
+  /*left: 280px;
+  top: 136px;*/
 
   font-family: Inter;
   font-style: normal;
@@ -15,4 +15,7 @@
   text-align: center;
 
   color: #FFFFFF;
+
+  align-self: center;
+  margin: 0 auto 32px;
 }

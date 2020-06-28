@@ -1,15 +1,22 @@
-@import url(./__title/places__title.css);
+@import url(./__title/place__title.css);
 
-@import url(./__image/places__image.css);
+@import url(./__image/place__image.css);
 
-@import url(./__website/places__website.css);
+@import url(./__website/place__website.css);
 
-@import url(./__paragraph/places__paragraph.css);
+@import url(./__paragraph/place__paragraph.css);
 
 .place {
-  position: absolute;
   width: 984px;
-  height: 584px;
+  /*height: 584px;
   left: 148px;
-  top: 2656px;
+  top: 2656px; */
+
+  display: grid;
+  align-items: end;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: 76px 460px;
+  gap: 48px 40px;
+  margin-bottom: 80px;
+  background-color: rgb(133, 189, 101);
 }

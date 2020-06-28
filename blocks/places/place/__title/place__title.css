@@ -1,19 +1,19 @@
-.cover__title {
+.place__title {
   position: absolute;
-  width: 656px;
+  width: 460px;
   height: 76px;
-  /*left: 312px;
-  /*top: 6483px;*/
+  /*left: 148px;*/
+  /*top: 2656px;*/
 
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-/* identical to box height, or 106% */
+  /* identical to box height, or 106% */
 
-  text-align: center;
+
   color: #FFFFFF;
 
-  margin: 283px 264px 32px;
+  margin-top: 0;
 }

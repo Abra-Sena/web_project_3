@@ -1,8 +1,12 @@
 .page {
   /* 1280 */
   position: relative;
-  width: 1280px;
-  height: 7074px;
+  max-width: 1280px;
+  min-height: 7074px;
 
   background: #2A2C2F;
+
+  align-items: center;
+  margin: auto;
+  text-rendering: optimizeLegibility;
 }
