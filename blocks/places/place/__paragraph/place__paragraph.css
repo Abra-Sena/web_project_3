@@ -2,29 +2,22 @@
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  /*identical to box height, or 162%*/
+
+  color: #FFFFFF;
+
+  margin: 0 0 24px 0;
+}
+
+.place__paragraph:first-child {
   font-size: 18px;
   line-height: 30px;
   /* or 167% */
-
-
-  /*color: #FFFFFF;*/
-  color: black;
-
-  margin-top: 0;
-  margin-bottom: 24px;
-}
-
-.place__paragraph:nth-of-type(2) {
-  font-size: 16px;
-  line-height: 26px;
-  /* or 162%*/
 }
 
 .place__paragraph:last-of-type {
-  font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162%*/
-
   margin-bottom: 0;
 }
 

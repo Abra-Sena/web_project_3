@@ -1,10 +1,12 @@
 #Develop a website from scratch
 
 ##**_TO DO_**
-*Fix position of <img> and website elemen in 2nd place item.
+* Adapt website to other screens.
 
 ##**_FIXED_**
 * Grid-item overflow fixed by replacing <ul> by <div>.
+* Specific class added to fix position of <img> and website element in 2nd place item.
+* Screen witdh = 1280px is wel designed. **_DONE-June-29_**
 
 ##**_TO DO_**
 * Fix grid-item overflow from photo-grid section.
@@ -22,6 +24,5 @@
 
 
 ##**_TO DO_**
-
 * Use grid layout to design photo-grid and make it look like brief **_DONE-June-28_**
 * Design the holl page to make it look like brief

@@ -5,7 +5,11 @@
   /*left: 148px;
   top: 2780px;*/
 
-  object-fit: cover;
-  margin-right: 40px;
-  margin-top: 124px;
+  margin: 124px 40px 0 0;
+  padding-bottom: 100%;
+  /*to make images equals their parent elements*/
+}
+
+.place__image-hampshire {
+  margin-top: 200px;
 }

@@ -4,9 +4,20 @@
 
 .places {
   position: relative;
-  max-width: 984px;
+  width: 984px;
   height: 3452px;
   left: 148px;
   top: 2656px;
 }
 
+@media screen and (max-width: 320px) {
+  .places {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    width: 90%;
+  }
+}

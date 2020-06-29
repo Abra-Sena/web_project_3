@@ -22,3 +22,8 @@
 .footer__link:last-of-type {
   margin-right: 0;
 }
+
+.footer__link:hover {
+  background: #2A2C2F;
+  opacity: .8;
+}

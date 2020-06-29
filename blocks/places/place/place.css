@@ -4,6 +4,8 @@
 
 @import url(./__website/place__website.css);
 
+@import url(./__text/place__text.css);
+
 @import url(./__paragraph/place__paragraph.css);
 
 .place {
@@ -13,7 +15,6 @@
 
   display: flex;
   margin-bottom: 80px;
-  background-color: rgb(199, 75, 168);
 }
 
 .place:nth-of-type(2) {
@@ -23,11 +24,3 @@
 .place:nth-of-type(4) {
   height: 712px;
 }
-
-.place__text {
-  margin-top: 124px;
-  width: 484px;
-  margin-left: 500px;
-  background-color: aquamarine;
-}
-

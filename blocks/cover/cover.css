@@ -6,7 +6,7 @@
 
 .cover {
   position: absolute;
-  max-width: 1184px;
+  width: 1184px;
   height: 740px;
   left: 48px;
   top: 6200px;
@@ -15,4 +15,10 @@
 .cover:hover {
   background: #2A2C2F;
   opacity: .8;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+  }
 }

@@ -8,8 +8,14 @@
 
 .intro {
   position: absolute;
-  max-width: 690px;
+  width: 690px;
   height: 568px;
   left: 148px;
   top: 1233px;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    width: 90%;
+  }
 }
