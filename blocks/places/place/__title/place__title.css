@@ -1,7 +1,7 @@
 .place__title {
   position: absolute;
   width: 460px;
-  height: 76px;
+  min-height: 76px;
   /*left: 148px;*/
   /*top: 2656px;*/
 
@@ -15,5 +15,10 @@
 
   color: #FFFFFF;
 
+
   margin-top: 0;
+  margin-bottom: 48px;
+  margin-right: 40px;
+  background-color: antiquewhite;
 }
+

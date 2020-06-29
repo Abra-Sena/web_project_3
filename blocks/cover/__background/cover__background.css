@@ -6,5 +6,6 @@
   background-image: url(../../../images/cover-route-66.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  box-sizing: border-box;
 
 }

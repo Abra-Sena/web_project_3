@@ -7,16 +7,27 @@
 @import url(./__paragraph/place__paragraph.css);
 
 .place {
-  width: 984px;
-  /*height: 584px;
-  left: 148px;
-  top: 2656px; */
+  position: relative;
+  width: 100%;
+  height: 584px;
 
-  display: grid;
-  align-items: end;
-  grid-template-columns: 460px 484px;
-  grid-template-rows: 76px 460px;
-  gap: 48px 40px;
+  display: flex;
   margin-bottom: 80px;
-  background-color: rgb(133, 189, 101);
+  background-color: rgb(199, 75, 168);
 }
+
+.place:nth-of-type(2) {
+  height: 668px;
+}
+
+.place:nth-of-type(4) {
+  height: 712px;
+}
+
+.place__text {
+  margin-top: 124px;
+  width: 484px;
+  margin-left: 500px;
+  background-color: aquamarine;
+}
+

@@ -4,19 +4,16 @@
 
 .place__website {
   position: absolute;
-  width: 100%;
+  width: 456px;
   height: 46px;
   /*left: 648px;
   top: 2686px;*/
 
-  display: none;
-  grid-column-start: 2;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 1;
 
   padding-left: 0;
   list-style-type: none;
-  background-color: blue;
-  z-index: 5;
+  margin-left: 500px;
+  margin-right: 28px;
+  margin-top: 30px;
+  background-color: antiquewhite;
 }

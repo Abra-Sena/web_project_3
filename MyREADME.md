@@ -1,6 +1,12 @@
 #Develop a website from scratch
 
 ##**_TO DO_**
+*Fix position of <img> and website elemen in 2nd place item.
+
+##**_FIXED_**
+* Grid-item overflow fixed by replacing <ul> by <div>.
+
+##**_TO DO_**
 * Fix grid-item overflow from photo-grid section.
 * Fix paragraphs and image position for places section.
 * Use @media screen to make code compatible to brief for other devices.
