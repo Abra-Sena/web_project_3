@@ -12,10 +12,34 @@
   line-height: 76px;
   /* identical to box height, or 106% */
 
-
   color: #FFFFFF;
 
 
   margin: 0 40px 48px 0;
 }
 
+@media screen and (max-width: 1024px) {
+  .place__title {
+    margin: 0 32px 48px 0;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .place__title {
+    height: 46px;
+    margin: 0 28px 48px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__title {
+    height: 35px;
+    margin: 0 16px 32px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
