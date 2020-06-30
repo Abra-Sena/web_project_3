@@ -6,3 +6,23 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .photo-grid__element {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid__element {
+    grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid__element {
+    display: flex;
+    flex-direction: column;
+  }
+}

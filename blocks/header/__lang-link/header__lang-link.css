@@ -27,3 +27,17 @@
 
   margin: 12px 4px 0 957px;
 }
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    width: 22px;
+    height: 24px;
+
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .header__lang-link:last-of-type {
+    width: 21px;
+  }
+}

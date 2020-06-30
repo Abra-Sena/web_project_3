@@ -19,3 +19,23 @@
   align-self: center;
   margin: 232px auto 64px;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__subtitle {
+    margin-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__subtitle {
+    width: 288px;
+    height: 40px;
+    margin: 104px auto 40px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

@@ -2,6 +2,8 @@
 
 ##**_TO DO_**
 * Adapt website to other screens.
+* Sections that need to be designed for the responsive design: photo-grid (check), places, cover and footer.
+* Once all the sections have the responsive design, use checklist to make sure everything is done before submitting code for review.
 
 ##**_FIXED_**
 * Grid-item overflow fixed by replacing <ul> by <div>.

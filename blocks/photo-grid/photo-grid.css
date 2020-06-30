@@ -18,3 +18,19 @@
     width: 90%;
   }
 }
+
+@media screen and (max-width: 768px){
+  .photo-grid {
+    height: 1664px;
+    left: 24px;
+    top: 1708px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    height: 2724px;
+    left: 16px;
+    top: 1479px;
+  }
+}
