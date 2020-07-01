@@ -1,21 +1,21 @@
-@import url(./__copyright/footer__copyright.css);
+@import url(./__item/footer__item.css);
+
+@import url(./__list/footer__list.css);
 
 @import url(./__link/footer__link.css);
+
+@import url(./__copyright/footer__copyright.css);
+
 
 .footer {
   width: 168px;
   height: 198px;
-  margin: 64px 136px 24px 16px;
+  padding: 0;
+  margin: 64px 16px 24px 16px;
 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: burlywood;
-}
-
-.footer__list {
-  list-style: none;
-  padding: 0;
 }
 
 /*

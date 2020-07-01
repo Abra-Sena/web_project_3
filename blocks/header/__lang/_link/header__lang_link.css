@@ -1,7 +1,5 @@
 .header__lang_link {
-  width: 22px;
-  height: 24px;
-  margin: 0 18px 2px 0;
+  margin: 0 0 0 18px;
 
   font-family: Inter;
   font-style: normal;
@@ -14,8 +12,7 @@
 
   color: #FFFFFF;
 }
+
 .header__lang_link:last-of-type {
-  width: 21px;
-  margin-right: 0;
   text-decoration-line: none;
 }

@@ -1,6 +1,10 @@
-.cover__background {
+#cover__background {
+  height: 100%;
+  width: 100%;
+  display: block;
   background-image: url(../../../images/cover-route-66.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  box-sizing: border-box;
+
+  text-decoration-line: none;
 }

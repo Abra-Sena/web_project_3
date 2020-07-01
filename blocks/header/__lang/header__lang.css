@@ -1,8 +1,6 @@
 @import url(./_link/header__lang_link.css);
 
 .header__lang {
-  position: absolute;
-  display: inline;
-  margin: 10px 0 0 227px;
+  margin: 10px 0 2px 0;
   padding: 0;
 }
