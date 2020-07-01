@@ -1,13 +1,12 @@
 .logo {
-  position: absolute;
   width: 156px;
   height: 36px;
-  /*left: 148px;*/
 }
 
-@media screen and (min-width: 768px) {
+/*@media screen and (min-width: 768px) {
   .logo {
     width: 196px;
     height: 44px;
   }
 }
+*/

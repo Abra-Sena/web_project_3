@@ -1,12 +1,13 @@
 .page {
   /* 1280 */
-  position: relative;
-  max-width: 1280px;
-  min-height: 7074px;
+  /*max-width: 1280px;*/
+  width: 320px;
+  margin: 0 auto;
+
+  font-family: 'Inter';
+  text-rendering: optimizeLegibility;
 
   background: #2A2C2F;
-
-  align-items: center;
-  margin: auto;
-  text-rendering: optimizeLegibility;
 }
+
+/*@media screen and (min-width: 768px)*/

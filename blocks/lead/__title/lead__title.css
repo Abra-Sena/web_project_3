@@ -1,23 +1,37 @@
 .lead__title {
-  position: absolute;
+  width: 288px;
+  height: 88px;
+  margin: 0 16px 16px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 44px;
+  /* or 110% */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+/*.lead__title {
   width: 720px;
   height: 200px;
-  /*left: 280px;
-  top: 136px;*/
 
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
-  /* or 104% */
+  /* or 104%
 
   text-align: center;
 
   color: #FFFFFF;
 
   align-self: center;
-  margin: 0 auto 32px;
+  margin: 0 16px 16px;
 }
 
 @media screen and (max-width: 768px) {
@@ -38,3 +52,4 @@
     line-height: 44px;
   }
 }
+*/

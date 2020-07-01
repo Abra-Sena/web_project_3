@@ -1,19 +1,17 @@
 .cover__subtitle {
-  position: absolute;
-  width: 320px;
-  height: 66px;
-  /*left: 480px;
-  /*top: 6591px;*/
+  width: 288px;
+  height: 48px;
+  margin: 0 16px 50px;
 
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-  /* or 122% */
+  font-size: 14px;
+  line-height: 16px;
+  /* or 114% */
 
   text-align: center;
-  color: #FFFFFF;
+  text-decoration-line: none;
 
-  margin: 391px 432px 283px;
+  color: #FFFFFF;
 }

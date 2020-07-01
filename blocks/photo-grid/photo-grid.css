@@ -3,17 +3,14 @@
 @import url(./__item/photo-grid__item.css);
 
 .photo-grid {
-  position: absolute;
-  width: 1184px;
-  height: 671px;
-  left: 48px;
-  top: 1893px;
-
-  margin: 0;
+  width: 288px;
+  height: 2724px;
+  margin: 64px 16px 0;
   padding: 0;
+  background-color: aquamarine;
 }
 
-@media screen and (max-width: 1024px) {
+/*@media screen and (max-width: 1024px) {
   .photo-grid {
     width: 90%;
     height: 942px;
@@ -35,3 +32,4 @@
     top: 1479px;
   }
 }
+*/

@@ -1,4 +1,6 @@
 .place__paragraph {
+  margin: 0 0 24px 0;
+
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -7,14 +9,10 @@
   /*identical to box height, or 162%*/
 
   color: #FFFFFF;
-
-  margin: 0 0 24px 0;
 }
 
-.place__paragraph:first-child {
-  font-size: 18px;
-  line-height: 30px;
-  /* or 167% */
+.place__paragraph-york {
+  line-height: 169.4%;
 }
 
 .place__paragraph:last-of-type {

@@ -1,14 +1,9 @@
 .place__text {
-  margin: 124px 0 0 500px;
-  width: 484px;
+  width: 288px;
+  margin: 0 16px;
 }
 
-.place__text-hampshire {
+/*.place__text-hampshire {
   margin-top: 200px;
 }
-
-@media screen and (max-width: 320px) {
-  .place__text {
-    margin: 419px 16px 0;
-  }
-}
+*/

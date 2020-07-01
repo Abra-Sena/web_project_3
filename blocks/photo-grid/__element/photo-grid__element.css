@@ -1,4 +1,9 @@
 .photo-grid__element {
+  display: flex;
+  flex-direction: column;
+}
+
+/*.photo-grid__element {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
@@ -19,10 +24,4 @@
     grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
   }
 }
-
-@media screen and (max-width: 320px) {
-  .photo-grid__element {
-    display: flex;
-    flex-direction: column;
-  }
-}
+/*

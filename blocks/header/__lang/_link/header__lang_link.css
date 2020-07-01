@@ -1,0 +1,21 @@
+.header__lang_link {
+  width: 22px;
+  height: 24px;
+  margin: 0 18px 2px 0;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+
+  text-align: right;
+  text-decoration-line: underline;
+
+  color: #FFFFFF;
+}
+.header__lang_link:last-of-type {
+  width: 21px;
+  margin-right: 0;
+  text-decoration-line: none;
+}

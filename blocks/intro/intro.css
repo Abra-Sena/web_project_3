@@ -7,14 +7,13 @@
 @import url(./__list/intro__list.css);
 
 .intro {
-  position: absolute;
-  width: 690px;
-  height: 568px;
-  left: 148px;
-  top: 1233px;
+  width: 288px;
+  height: 839px;
+  margin: 64px 16px 0 16px;
+  background-color: burlywood;
 }
 
-@media screen and (max-width: 1024px) {
+/*@media screen and (max-width: 1024px) {
   .intro {
     left: 48px;
     top: 1182px;
@@ -37,3 +36,4 @@
     top: 576px;
   }
 }
+*/

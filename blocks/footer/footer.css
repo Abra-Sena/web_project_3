@@ -3,33 +3,25 @@
 @import url(./__link/footer__link.css);
 
 .footer {
-  position: absolute;
-  width: 1184px;
-  height: 18px;
-  left: 48px;
-  top: 7032px;
+  width: 168px;
+  height: 198px;
+  margin: 64px 136px 24px 16px;
 
   display: flex;
-  padding-top: 92px;
-  padding-bottom: 24px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: burlywood;
 }
 
 .footer__list {
-  display: flex;
   list-style: none;
-  padding-left: 0;
+  padding: 0;
 }
 
-@media screen and (max-width: 320px) {
-  .footer {
-    width: 168px;
-    height: 198px;
-    /*to add: flex-direction: column;*/
-  }
-}
-
+/*
 @media screen and (max-width: 1024px) {
   .footer {
     width: 90%;
   }
 }
+*/

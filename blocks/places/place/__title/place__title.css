@@ -1,24 +1,20 @@
 .place__title {
-  position: absolute;
-  width: 460px;
-  min-height: 76px;
-  /*left: 148px;*/
-  /*top: 2656px;*/
+  width: 288px;
+  height: 35px;
+
+  margin: 0 16px 32px;
 
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
-  font-size: 72px;
-  line-height: 76px;
+  font-size: 32px;
+  line-height: 35px;
   /* identical to box height, or 106% */
 
   color: #FFFFFF;
-
-
-  margin: 0 40px 48px 0;
 }
 
-@media screen and (max-width: 1024px) {
+/*@media screen and (max-width: 1024px) {
   .place__title {
     margin: 0 32px 48px 0;
   }
@@ -31,15 +27,4 @@
   }
 }
 
-@media screen and (max-width: 320px) {
-  .place__title {
-    height: 35px;
-    margin: 0 16px 32px;
-
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 35px;
-  }
-}
+*/

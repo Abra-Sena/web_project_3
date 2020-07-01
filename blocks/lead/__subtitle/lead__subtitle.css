@@ -1,16 +1,33 @@
+/*320px creen width*/
 .lead__subtitle {
-  position: absolute;
+  width: 288px;
+  height: 40px;
+margin: 0 16px 40px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+/*.lead__subtitle {
   width: 620px;
   height: 72px;
   /*left: 330px;
-  top: 368px;*/
+  top: 368px;
 
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
   line-height: 36px;
-  /* or 120% */
+  /* or 120%
 
   text-align: center;
 
@@ -39,3 +56,4 @@
     line-height: 20px;
   }
 }
+*/

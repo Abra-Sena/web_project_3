@@ -1,18 +1,15 @@
 .lead__image {
-  position: absolute;
-  width: 100%;
-  height: 615px;
-  /*left: 148px;
-  top: 504px;*/
+  width: 320px;
+  height: 200px;
 
-  margin-top: 368px;
   background-image: url(../../../images/lead-mountains.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 320px) {
+/*@media screen and (max-width: 320px) {
   .lead__image {
     margin-top: 184px;
   }
 }
+*/

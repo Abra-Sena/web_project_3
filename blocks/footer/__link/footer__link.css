@@ -1,16 +1,28 @@
 .footer__link {
-  /*position: absolute;
-  width: 42px;
-  height: 18px;
-  /*left: 48px;
-  top: 7032px;*/
+  margin: 0 0 32px;
 
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+
+  color: #FFFFFF;
+  text-decoration-line: none;
+}
+
+.footer__link:last-of-type {
+  width: 103px;
+  margin: 0 0 48px;
+}
+
+/*.footer__link {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
-/* identical to box height, or 112% */
+/* identical to box height, or 112%
 
   color: #FFFFFF;
 
@@ -27,3 +39,4 @@
   background: #2A2C2F;
   opacity: .8;
 }
+*/
