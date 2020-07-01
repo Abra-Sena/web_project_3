@@ -1,23 +1,33 @@
 @import url(../logo/logo.css);
 
-@import url(./__lang-link/header__lang-link.css);
+@import url(./__lang/header__lang.css);
+
+/*@import url(./__lang-link/header__lang-link.css);*/
 
 .header {
-  position: absolute;
-  width: 984px;
-  height: 44px;
-  left: 148px;
-  top: 34px;
+  position: relative;
+  width: 90%;
+  height: 36px;
+  margin: 20px auto 0;
+  background-color: burlywood;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    height: 44px;
+    margin: 34px 24px 0;
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .header {
-    width: 90%;
+    margin: 34px 48px 0;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1280px) {
   .header {
-    height: 36px;
+    width: 984px;
+    margin: 34px 148px 0;
   }
 }
