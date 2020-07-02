@@ -4,3 +4,9 @@
   margin: 10px 0 2px 0;
   padding: 0;
 }
+
+@media screen and (min-width: 1280px) {
+  .header__lang {
+    margin: 12px 0 4px 0;
+  }
+}

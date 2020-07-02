@@ -25,6 +25,18 @@
     margin-bottom: 32px;
 
     font-size: 72px;
-    line-height: 76px;
+    line-height: 106%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__title {
+    padding: 233px 184px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__title {
+    padding: 233px 264px 0;
   }
 }

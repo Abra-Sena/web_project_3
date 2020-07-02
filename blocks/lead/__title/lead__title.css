@@ -17,25 +17,12 @@
 
 @media screen and (min-width: 768px) {
   .lead__title {
-    width: 90%;
+    width: 720px;
     height: 200px;
-    margin: 0 24px 32px;
+    margin: 0 auto 32px;
 
     font-size: 96px;
     line-height: 104%;
   }
 }
 
-/*@media screen and (max-width: 320px) {
-  .lead__title {
-    height: 88px;
-    margin: 0 auto 16px;
-
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 40px;
-    line-height: 44px;
-  }
-}
-*/

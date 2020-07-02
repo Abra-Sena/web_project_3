@@ -1,7 +1,6 @@
 .place__text {
   width: 288px;
   margin: 0 16px;
-  background-color: aqua;
 }
 
 @media screen and (min-width: 768px) {
@@ -14,8 +13,3 @@
     width: 100%;
   }
 }
-
-/*.place__text-hampshire {
-  margin-top: 200px;
-}
-*/

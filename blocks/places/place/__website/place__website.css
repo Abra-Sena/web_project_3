@@ -13,7 +13,6 @@
   .place__website {
     display: visible;
     padding: 0;
-    background-color: blueviolet;
 
     list-style-type: none;
 
@@ -21,5 +20,25 @@
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 1;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place__website {
+    margin: 30px 0 0;
+  }
+
+  .place__website-hampshire {
+    margin: 100px 0 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place__website {
+    margin: 30px 28px 0 0;
+  }
+
+  .place__website-hampshire {
+    margin: 106px 28px 0 0;
   }
 }

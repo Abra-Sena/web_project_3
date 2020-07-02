@@ -1,23 +1,11 @@
 .page {
-  /* 1280 */
-  /*max-width: 1280px;*/
-  width: 320px;
+  min-width: 320px;
+  max-width: 1280px;
   margin: 0 auto;
+  padding: 0;
 
   font-family: 'Inter';
   text-rendering: optimizeLegibility;
 
   background: #2A2C2F;
-}
-
-@media screen and (min-width: 768px) {
-  .page {
-    width: 768px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .page {
-    width: 1024px;
-  }
 }

@@ -7,8 +7,8 @@
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
-  line-height: 35px;
-  /* or 107% */
+  line-height: 107%;
+  /* or 35px */
 
   color: #FFFFFF;
 }
@@ -18,7 +18,5 @@
     height: 116px;
 
     font-size: 54px;
-    line-height: 107%;
   }
 }
-

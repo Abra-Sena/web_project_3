@@ -1,13 +1,12 @@
 .footer__copyright {
   margin: 0;
-  background-color: blueviolet;
 
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 14px;
-  /* identical to box height, or 100% */
+  line-height: 100%;
+  /* identical to box height, or 14px */
 
   color: #FFFFFF;
 }
@@ -17,8 +16,8 @@
     margin-left: 0;
 
     font-size: 14px;
-    line-height: 16px;
-    /* identical to box height, or 114% */
+    line-height: 114%;
+    /* identical to box height, or 16px */
   }
 }
 
