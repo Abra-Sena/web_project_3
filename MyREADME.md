@@ -1,4 +1,8 @@
-#Develop a website from scratch
+#Developping a website from scratch
+
+##**Description**
+
+*Name: From Portland to Portland*
 
 ##**_TO DO_**
 * Adapt website to other screens.
@@ -14,10 +18,6 @@
 * Fix grid-item overflow from photo-grid section.
 * Fix paragraphs and image position for places section.
 * Use @media screen to make code compatible to brief for other devices.
-
-##**Description**
-
-*Name: From Portland to Portland*
 
 * Blocks created using the brief provided on Figma.
 * Blocks, elements and modifier named according to brief and BEM.
