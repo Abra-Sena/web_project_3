@@ -1,3 +1,19 @@
+# Developping a website from scratch
+
+### Submission Notes
+
+**Descripton**
+
+* Only HTML and CSS were used in this project.
+* Used brief from Figma to design the projct about traveling from Portland to Portland.
+* BEM Methodology used to name different section's class.
+* BEM Structure for the blocks.
+* Website is designed and adapt for devices with different width: 320px, 768px, 1024px and 1280px.
+* Flexbox and Grid used to display images.
+* Display _none_ to hide elements on some devices and _visible_ to show them on others.
+
+
+
 # Project 3: From Portland to Portland
 
 ### Overview
@@ -15,6 +31,6 @@ This is a project about traveling across the US. We've made it so all the elemen
 
 **Images**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
+The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
 
 Good luck and have fun!

@@ -2,7 +2,7 @@
   width: 288px;
   height: 35px;
   padding: 51px 16px 0;
-  margin-bottom: 16px;
+  margin: 0 auto 16px;
 
   font-family: Inter;
   font-style: normal;
@@ -22,7 +22,7 @@
     width: 656px;
     height: 76px;
     padding: 153px 56px 0;
-    margin-bottom: 32px;
+    margin: 0 auto 32px;
 
     font-size: 72px;
     line-height: 106%;
