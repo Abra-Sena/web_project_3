@@ -1,10 +1,4 @@
 .place__link {
-  position: absolute;
-  width: 456px;
-  /*height: 22px;
-  /*left: 648px;*/
-  /*top: 2710px;*/
-
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -16,7 +10,7 @@
 
   color: #FFFFFF;
 
-  margin-top: 24px;
+  margin-top: 12px;
   padding: 0;
 }
 

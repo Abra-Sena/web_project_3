@@ -6,3 +6,10 @@
 .footer__list:last-of-type {
   margin: 0 0 48px;
 }
+
+@media screen and (min-width: 768px) {
+  .footer__list {
+    display: inline-block;
+    margin: 0 18px 0 0;
+  }
+}

@@ -2,28 +2,24 @@
 
 @import url(./__link/place__link.css);
 
-.place__website {
-  display: none;
-}
-
-/*@media screen and (min-width: 768px) and (max-width: 1280px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .place__website {
-    position: absolute;
-    display: visible;
-    width: 456px;
-    height: 46px;
-    /*left: 648px;
-    top: 2686px;
-
-
-
-    padding-left: 0;
-    margin: 30px 28px 0 500px;
-    list-style-type: none;
-  }
-
-  .place__website-hampshire {
-    margin-top: 106px;
+    display: none;
   }
 }
-*/
+
+
+@media screen and (min-width: 768px) {
+  .place__website {
+    display: visible;
+    padding: 0;
+    background-color: blueviolet;
+
+    list-style-type: none;
+
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+}

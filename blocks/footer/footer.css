@@ -11,17 +11,21 @@
   width: 168px;
   height: 198px;
   padding: 0;
-  margin: 64px 16px 24px 16px;
+  margin: 64px 16px 24px;
 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: burlywood;
 }
 
-/*
-@media screen and (max-width: 1024px) {
+
+@media screen and (min-width: 768px) {
   .footer {
-    width: 90%;
+    width: 720px;
+    height: 18px;
+    margin: 88px auto 24px;
+
+    flex-direction: row;
   }
 }
-*/

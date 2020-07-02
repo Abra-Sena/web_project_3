@@ -2,14 +2,21 @@
 
 @import url(./__text/intro__text.css);
 
-@import url(./__text/intro__text-1.css);
-
 @import url(./__list/intro__list.css);
 
 .intro {
   width: 288px;
   height: 839px;
-  margin: 64px 16px 0 16px;
+  margin: 64px 16px 0;
+  background-color: burlywood;
+}
+
+@media screen and (min-width: 768px) {
+  .intro {
+    width: 720px;
+    height: 542px;
+    margin: 88px 24px 0;
+  }
 }
 
 /*@media screen and (max-width: 1024px) {
@@ -19,14 +26,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .intro {
-    width: 90%;
-    height: 542px;
-    left: 24px;
-    top: 1078px;
-  }
-}
+
 
 @media screen and (max-width: 320px) {
   .intro {

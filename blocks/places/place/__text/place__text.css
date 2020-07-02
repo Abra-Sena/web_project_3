@@ -1,6 +1,18 @@
 .place__text {
   width: 288px;
   margin: 0 16px;
+  background-color: aqua;
+}
+
+@media screen and (min-width: 768px) {
+  .place__text {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    margin: 0;
+    width: 100%;
+  }
 }
 
 /*.place__text-hampshire {

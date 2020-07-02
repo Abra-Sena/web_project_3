@@ -1,14 +1,13 @@
 .intro__text {
   width: 100%;
   height: 90px;
-  margin-top: 40px;
+  margin: 40px 0 0;
 
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: 30px;
-  /* or 142% */
+  line-height: 142%;
 
 
   color: #FFFFFF;
@@ -16,20 +15,19 @@
 
 .intro__text:last-of-type {
   height: 468px;
-  margin: 32px 0;
+  margin: 32px 0 0;
 
   font-size: 16px;
-  line-height: 26px;
-  /* or 162% */
+  line-height: 162%;
 }
 
-/*@media screen and (max-width: 320px) {
+@media screen and (min-width: 768px) {
   .intro__text {
-    margin-top: 145px;
+    height: 68px;
   }
 
   .intro__text:last-of-type {
-    margin-top: 267px;
+    height: 182px;
   }
 }
-/*
+

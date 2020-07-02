@@ -5,6 +5,15 @@
 .places {
   width: 100%;
   margin: 64px 0 0;
+  background-color: burlywood;
+}
+
+@media screen and (min-width: 768px) {
+  .places {
+    width: 720px;
+    height: 3143px;
+    margin: 88px auto 0;
+  }
 }
 
 /*@media screen and (max-width: 1024px) {
@@ -12,13 +21,6 @@
     width: 90%;
     height: 3456px;
     top: 2876px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .places {
-    height: 3143px;
-    top: 3460px;
   }
 }
 */

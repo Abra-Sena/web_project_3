@@ -1,5 +1,6 @@
 .footer__copyright {
   margin: 0;
+  background-color: blueviolet;
 
   font-family: Inter;
   font-style: normal;
@@ -10,3 +11,14 @@
 
   color: #FFFFFF;
 }
+
+@media screen and (min-width: 768px) {
+  .footer__copyright {
+    margin-left: 0;
+
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+  }
+}
+
