@@ -1,7 +1,7 @@
 .header__lang_link {
   margin: 0 0 0 18px;
 
-  font-family: Inter;
+  font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -13,12 +13,7 @@
   color: #FFFFFF;
 }
 
-.header__lang_link:first-of-type{
-  margin-left: 0;
-  text-decoration-line: underline;
-}
-
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 768px) {
   .header__lang_link {
     font-size: 24px;
     line-height: 117%;

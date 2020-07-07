@@ -1,6 +1,6 @@
-@import url(../logo/logo.css);
+@import url('../logo/logo.css');
 
-@import url(./__lang/header__lang.css);
+@import url('./__lang/header__lang.css');
 
 
 .header {
@@ -9,6 +9,7 @@
   width: 288px;
   height: 36px;
   margin: 20px 16px 0;
+  background-color: burlywood;
 }
 
 @media screen and (min-width: 768px) {

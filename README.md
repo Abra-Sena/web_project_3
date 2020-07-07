@@ -12,7 +12,7 @@
 * Flexbox and Grid used to display images.
 * Display _none_ to hide elements on some devices and _visible_ to show them on others.
 
-
+###[Project is accessible here](https://abra-sena.github.io/web_project_3/)
 
 # Project 3: From Portland to Portland
 

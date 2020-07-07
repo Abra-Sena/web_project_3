@@ -1,8 +1,14 @@
-@import url(./_link/header__lang_link.css);
+@import url('./header__lang-list.css');
+
+@import url('./_link/header__lang_link.css');
+
+@import url('./_link/header__lang_link_active.css');
 
 .header__lang {
   margin: 10px 0 2px 0;
   padding: 0;
+
+  list-style-type: none;
 }
 
 @media screen and (min-width: 1280px) {

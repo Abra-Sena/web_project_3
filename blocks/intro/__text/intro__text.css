@@ -1,9 +1,8 @@
 .intro__text {
   width: 100%;
-  height: 90px;
   margin: 40px 0 0;
 
-  font-family: Inter;
+  font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -14,25 +13,8 @@
 }
 
 .intro__text:last-of-type {
-  height: 468px;
   margin: 32px 0 0;
 
   font-size: 16px;
   line-height: 162%;
-}
-
-@media screen and (min-width: 768px) {
-  .intro__text {
-    height: 68px;
-  }
-
-  .intro__text:last-of-type {
-    height: 182px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .intro__text:last-of-type {
-    height: 208px;
-  }
 }

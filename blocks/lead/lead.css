@@ -1,37 +1,30 @@
-@import url(./__title/lead__title.css);
+@import url('../section-title/section-title.css');
 
-@import url(./__subtitle/lead__subtitle.css);
+@import url('../section-subtitle/section-subtitle.css');
 
-@import url(./__image/lead__image.css);
+@import url('./__item/lead__item.css');
 
-@import url(./__caption/lead__caption.css);
+@import url('./__image/lead__image.css');
+
+@import url('./__caption/lead__caption.css');
 
 .lead {
   width: 100%;
-  /*max-height: 1005px;*/
-  height: 406px;
   margin: 50px 0 0;
   padding: 0;
-}
-
-@media screen and (min-width: 768px) {
-  .lead {
-    height: 862px;
-  }
+  background-color: burlywood;
 }
 
 @media screen and (min-width: 1024px) {
   .lead {
-    width: 928px;
-    height: 962px;
+    max-width: 928px;
     margin: 50px 48px 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .lead {
-    width: 984px;
-    height: 1005px;
+    max-width: 984px;
     margin: 58px 148px 0;
   }
 }

@@ -1,18 +1,18 @@
-@import url(./__title/place__title.css);
+@import url('../section-title/section-title.css');
 
-@import url(./__website/place__website.css);
+@import url('./__website/place__website.css');
 
-@import url(./__image/place__image.css);
+@import url('./__image/place__image.css');
 
-@import url(./__text/place__text.css);
+@import url('./__text/place__text.css');
 
-@import url(./__paragraph/place__paragraph.css);
+@import url('./__paragraph/place__paragraph.css');
 
 .place {
   width: 100%;
   margin: 0 0 48px;
   padding: 0;
-
+  background-color: rgb(207, 119, 160);
 }
 
 .place:last-of-type {

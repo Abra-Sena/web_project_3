@@ -1,13 +1,12 @@
-@import url(./__background/cover__background.css);
+@import url('../section-title/section-title.css');
 
-@import url(./__title/cover__title.css);
+@import url('../section-subtitle/section-subtitle.css');
 
-@import url(./__subtitle/cover__subtitle.css);
+@import url('./__background/cover__background.css');
 
 
 .cover {
   width: 100%;
-  height: 200px;
   margin: 64px 0 0;
   padding: 0;
 }
@@ -19,21 +18,19 @@
 
 @media screen and (min-width: 768px) {
   .cover {
-    height: 480px;
     margin: 88px 0 0;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cover {
-    height: 640px;
     margin: 96px 0 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .cover {
-    height: 740px;
-    margin: 92px 0 0;
+    max-width: 1184px;
+    margin: 92px auto 0;
   }
 }

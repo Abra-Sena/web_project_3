@@ -1,9 +1,8 @@
 .lead__image {
   width: 100%;
   height: 200px;
-  background-image: url(../../../images/lead-mountains.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (min-width: 768px) {
