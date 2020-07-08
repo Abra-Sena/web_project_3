@@ -1,6 +1,6 @@
-@import url('../section-title/section-title.css');
+@import url('./__title/lead__title.css');
 
-@import url('../section-subtitle/section-subtitle.css');
+@import url('./__subtitle/lead__subtitle.css');
 
 @import url('./__item/lead__item.css');
 
@@ -12,19 +12,18 @@
   width: 100%;
   margin: 50px 0 0;
   padding: 0;
-  background-color: burlywood;
 }
 
 @media screen and (min-width: 1024px) {
   .lead {
     max-width: 928px;
-    margin: 50px 48px 0;
+    margin: 50px auto 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .lead {
     max-width: 984px;
-    margin: 58px 148px 0;
+    margin: 58px auto 0;
   }
 }

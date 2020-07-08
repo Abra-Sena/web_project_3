@@ -11,6 +11,12 @@
   text-decoration-line: none;
 
   color: #FFFFFF;
+  transition: color .4s ease-out;
+}
+
+.header__lang_link:hover {
+  color: #00fd4c;
+  opacity: .5;
 }
 
 @media screen and (min-width: 768px) {

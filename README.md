@@ -4,15 +4,19 @@
 
 **Descripton**
 
+* Use Figma brief to break down project into sections.
+* Project designed with Mobile first approach.
 * Only HTML and CSS were used in this project.
-* Used brief from Figma to design the projct about traveling from Portland to Portland.
 * BEM Methodology used to name different section's class.
 * BEM Structure for the blocks.
-* Website is designed and adapt for devices with different width: 320px, 768px, 1024px and 1280px.
+* Use media queries to adapt project to devices with different width: 320px, 768px, 1024px and 1280px.
 * Flexbox and Grid used to display images.
-* Display _none_ to hide elements on some devices and _visible_ to show them on others.
+* Display _none_ to hide place website elements on mobile devices.
+* Hover effect on links.
 
 ###[Project is accessible here](https://abra-sena.github.io/web_project_3/)
+
+
 
 # Project 3: From Portland to Portland
 

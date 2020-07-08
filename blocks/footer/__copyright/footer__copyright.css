@@ -5,8 +5,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 100%;
-  /* identical to box height, or 14px */
+  line-height: 14px;
 
   color: #FFFFFF;
 }
@@ -16,8 +15,7 @@
     margin-left: 0;
 
     font-size: 14px;
-    line-height: 114%;
-    /* identical to box height, or 16px */
+    line-height: 16px;
   }
 }
 

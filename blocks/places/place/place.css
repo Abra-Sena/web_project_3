@@ -1,4 +1,4 @@
-@import url('../section-title/section-title.css');
+@import url('../../section-title/section-title.css');
 
 @import url('./__website/place__website.css');
 
@@ -12,7 +12,6 @@
   width: 100%;
   margin: 0 0 48px;
   padding: 0;
-  background-color: rgb(207, 119, 160);
 }
 
 .place:last-of-type {
@@ -24,7 +23,7 @@
     margin: 0 0 72px;
 
     display: grid;
-    grid-template-columns: minmax(0, 352px) 1fr;
+    grid-template-columns: minmax(0, 340px) 1fr;
     grid-template-rows: minmax(0, 46px) 1fr;
     gap: 48px 28px;
   }
